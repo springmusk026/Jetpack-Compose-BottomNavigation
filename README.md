@@ -25,7 +25,8 @@ This repository contains a Jetpack Compose project showcasing the implementation
 
 ## Screenshots
 
-Include some screenshots or gifs demonstrating the app's functionality and appearance.
+![Dark Mode](images/dark.jpg)
+![Light Mode](images/light.jpg)
 
 ## Getting Started
 
