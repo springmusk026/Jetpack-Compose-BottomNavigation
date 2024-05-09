@@ -2,11 +2,26 @@
 
 This repository contains a Jetpack Compose project showcasing the implementation of a bottom navigation bar, inspired by [this tutorial](https://www.youtube.com/watch?v=HVub2u8DpDQ). The project demonstrates the usage of Material3 components for creating a sleek and modern UI.
 
+## Table of Contents
+
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+- [Usage](#usage)
+- [Code Explanation](#code-explanation)
+- [Components Used](#components-used)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
+
 ## Features
 
-- Bottom navigation bar with icons and labels
-- Badge notifications for certain items
-- Navigation between different sections of the app
+- **Bottom Navigation Bar:** Utilizes Material3 components to create a bottom navigation bar with icons and labels for easy navigation.
+- **Badge Notifications:** Displays badge notifications on specific tabs to indicate the presence of new content or notifications.
+- **Sleek UI:** Designed with modern UI principles, providing users with an intuitive and visually appealing experience.
 
 ## Screenshots
 
@@ -16,11 +31,15 @@ Include some screenshots or gifs demonstrating the app's functionality and appea
 
 ### Prerequisites
 
+Before running the project, ensure you have the following prerequisites installed:
+
 - Android Studio Arctic Fox (2020.3.1) or later
 - Android SDK version 31 or higher
 - Kotlin version 1.5.0 or later
 
 ### Installation
+
+Follow these steps to install and run the project:
 
 1. Clone the repository:
 
@@ -52,7 +71,7 @@ git clone https://github.com/springmusk026/Jetpack-Compose-BottomNavigation.git
 - This data class represents a single item in the bottom navigation bar.
 - It contains properties such as title, route, selected icon, unselected icon, badge presence, and badge count.
 
-### Components Used
+## Components Used
 
 - `Scaffold`: Provides a basic layout structure for the app screen, including the bottom navigation bar.
 - `NavigationBar`: A custom navigation bar implementation for Jetpack Compose.
